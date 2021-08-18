@@ -3,7 +3,7 @@ clear
 close all
 
 
-A=imread('/home/amrit/Documents/EE5175/EE5175_ISP_Lab1/Lab1/lena_translate.pgm');
+A=imread('D:\EE5175-Image-Signal-Processing\EE5175_ISP_Lab1\Lab1\lena_translate.pgm');
 B=zeros(size(A));
 C=zeros(size(A));
 
@@ -15,8 +15,10 @@ figure(1),imshow(A,[0,255])
 
 
 for i=1:256
-    for j=1:256A=imread('/home/amrit/Documents/EE5175/EE5175_ISP_Lab5/Lab5/pillars.jpg');
-figure(1),imshow(A,[0,255])
+    disp(i);
+    for j=1:256
+        A=imread('D:\EE5175-Image-Signal-Processing\EE5175_ISP_Lab1\Lab1\lena_translate.pgm');
+    
 
         a=tx-floor(tx);
         b=ty-floor(ty);

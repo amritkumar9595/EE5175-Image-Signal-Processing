@@ -1,4 +1,4 @@
-A = imread('/home/amrit/Documents/EE5175/EE5175_ISP_Lab1/Lab1/cells_scale.pgm');
+A = imread('D:\EE5175-Image-Signal-Processing\EE5175_ISP_Lab1\Lab1\cells_scale.pgm');
 imshow(A,[0,255])
 
 B=zeros(size(A));
